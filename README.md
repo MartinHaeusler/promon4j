@@ -27,6 +27,10 @@ monitor.task("Hello World", totalWork) {
         monitor.worked(1)
     }
 }
+
+// access report data
+monitor.progress.taskStatus // <-- TaskStatus.COMPLETED
+
 ```
 
 I recommend to check out the tests in the repository for further usage examples.
