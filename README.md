@@ -51,3 +51,6 @@ I recommend to check out the tests in the repository for further usage examples.
  - Support for a **single task** being executed **concurrently** by multiple threads
  - Support for **multiple sub-tasks** being executed **concurrently** by multiple threads
  
+# What promon4j is not
+
+This library provides progress monitoring. It does not provide a task system, nor does it assume any particular task system to be in place. Also, no GUI components are provided. The data provided by `ProgressMonitor#progress` can be used as input to any kind of renderer, including command line, desktop rendering (e.g. Swing, JavaFX) or even served via REST for client-side rendering.
