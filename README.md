@@ -34,6 +34,8 @@ monitor.progress.taskStatus // <-- TaskStatus.COMPLETED
 
 I recommend to check out the tests in the repository for further usage examples.
 
+> Attention: both `ProgressMonitor#task(...)` as well as `ProgressMonitor#subTask(...)` methods are **synchronous** calls. The action you pass in as a lambda will be called immediately, and exactly once.
+
 # Features
 
  - Support for **task cancellation**
