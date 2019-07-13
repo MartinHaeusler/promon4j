@@ -47,6 +47,7 @@ I recommend to check out the tests in the repository for further usage examples.
    - Allocate work points in the parent for the sub-task
    - Sub-task is free to define its own total workload (may be less than, equal to or even higher amount allocated in the parent)
  - Progress **reporting capabilities** (`ProgressMonitor#progress`) both during and after task execution
+   - Reporting and execution also work when used concurrently.
  - Support for a **single task** being executed **concurrently** by multiple threads
  - Support for **multiple sub-tasks** being executed **concurrently** by multiple threads
  
