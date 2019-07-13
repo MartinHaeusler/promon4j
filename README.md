@@ -1,6 +1,6 @@
 # promon4j - A Progress Monitor library for the JVM
 
-promon4j is a Progress Monitor library written in Kotlin. It can be used from any language compliant with the JVM ecosystem.
+promon4j is a Progress Monitor library written in Kotlin. It can be used from any language compliant with the JVM ecosystem. It is inspired by the way Progress Monitors are handled within the Eclipse IDE, but without the need for `try-finally`. promon4j is a zero-dependency library (except for the JRE and Kotlin runtime libraries) and should run in all Java 8+ environments.
 
 # Installation
 
